@@ -1,0 +1,52 @@
+/* Set a dark theme for the body */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for readability */
+    font-family: 'Roboto', sans-serif; /* Material Design typically uses Roboto font */
+}
+
+/* Styling for the navbar */
+.navbar {
+    background-color: #424242; 
+    margin-bottom: 20px; /* Spacing between navbar and content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Slightly lighter shadow for depth */
+}
+
+/* Styling for navbar brand and nav links */
+.navbar .navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Hover effect for navbar brand and nav links */
+.navbar .navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #dddddd; /* Slightly darker shade for hover effects */
+}
+
+/* Styling for task list cards */
+.card {
+    background-color: #424242; /* Dark background for cards */
+    color: #e0e0e0;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth effect */
+    border-radius: 15px; /* Rounded corners for the card */
+    min-width: 600px; /* Set a minimum width */
+}
+
+/* Styling for task list items */
+.list-group-item {
+    background-color: #333333; /* Darker background for tasks */
+    color: #ffffff;
+    border: none; /* Removes default list group borders */
+    border-radius: 10px; /* Rounded corners for each task */
+    margin-top: 5px; /* Adds space between tasks */
+    margin-bottom: 5px;
+}
+
+/* Styling for buttons (used as Column headers) */
+.btn {
+    border: none;
+    color: white;
+}
+
